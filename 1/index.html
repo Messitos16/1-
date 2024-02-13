@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div {
+    margin-bottom: 10px;
+}
+  </style>
+<body>
+  <div class="container">
+    <input type="text" id="textInput" placeholder="Enter URL or Email">
+    <div id="urlValidationResult"></div>
+    <div id="emailValidationResult"></div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
